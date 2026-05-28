@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Regulatory Filings — Prism Wealth</title>
+  <meta name="description" content="Regulatory filings, disclosures, and registration documents for Prism Wealth." />
+
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Cinzel:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="nav__brand" aria-label="Prism Wealth — Home">
+        <img src="logo.png" alt="Prism Wealth" />
+        <span class="nav__brand-text"><span class="prism">PRISM</span> <span class="wealth">WEALTH</span></span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul class="nav__links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="market-recap.html">Market Recap</a></li>
+        <li><a href="regulatory.html" class="active">Regulatory Filings</a></li>
+        <li><a href="disclaimers.html">Disclosures</a></li>
+        <li><a href="index.html#contact" class="btn btn--ghost" style="padding:.5rem 1rem;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <header class="page-head">
+    <div class="page-head__inner">
+      <span class="eyebrow">Public Records</span>
+      <h1>Regulatory Filings.</h1>
+      <p class="lead">
+        Prism Wealth maintains its regulatory filings in accordance with applicable federal and state securities regulations. Current documents are available below for review.
+      </p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container-narrow">
+
+      <!--
+        ============================================================
+        REPLACE THE href="#" VALUES BELOW WITH ACTUAL FILE PATHS
+        Drop the PDF files alongside the HTML files and link them, e.g.:
+        href="form-adv-2a-2b.pdf"   (the combined ADV brochure)
+        href="privacy-policy.pdf"
+        ============================================================
+      -->
+
+      <div class="filings">
+        <a class="filing" href="#" target="_blank" rel="noopener">
+          <div>
+            <h3 class="filing__title">Form ADV, Part 2A &amp; 2B — Firm Brochure and Brochure Supplement</h3>
+            <p class="filing__desc">A description of the firm's services, fees, conflicts of interest, disciplinary history, and the individual investment adviser representative providing advice. Provided as a single document as required by State of Wisconsin law.</p>
+          </div>
+          <span class="filing__link">View PDF →</span>
+        </a>
+
+        <a class="filing" href="#" target="_blank" rel="noopener">
+          <div>
+            <h3 class="filing__title">Privacy Policy</h3>
+            <p class="filing__desc">How Prism Wealth collects, uses, and safeguards personal information.</p>
+          </div>
+          <span class="filing__link">View PDF →</span>
+        </a>
+
+        <a class="filing" href="https://adviserinfo.sec.gov/" target="_blank" rel="noopener">
+          <div>
+            <h3 class="filing__title">Investment Adviser Public Disclosure</h3>
+            <p class="filing__desc">Search the firm's registration record at the IAPD database, which covers both state- and SEC-registered advisers.</p>
+          </div>
+          <span class="filing__link">Visit IAPD →</span>
+        </a>
+      </div>
+
+      <div style="margin-top: 4rem; padding: 2rem; border: 1px solid var(--hairline); background: var(--bg-card);">
+        <h4 style="margin-top:0;">Request a Document</h4>
+        <p style="color: var(--text-soft); margin-bottom: 1rem;">
+          For paper copies or filings not listed above, please contact the firm directly.
+        </p>
+        <p style="margin: 0;">
+          <strong style="color: var(--cream); font-weight: 500;">608.841.1598</strong>
+          &nbsp;·&nbsp;
+          <a href="mailto:cpeterman@prism-wealth.com">cpeterman@prism-wealth.com</a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="logo.png" alt="Prism Wealth" />
+          <p>Independent wealth management. Middleton, Wisconsin.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="market-recap.html">Market Recap</a></li>
+            <li><a href="regulatory.html">Regulatory Filings</a></li>
+            <li><a href="disclaimers.html">Disclosures</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Contact</h5>
+          <ul>
+            <li>608.841.1598</li>
+            <li><a href="mailto:cpeterman@prism-wealth.com">cpeterman@prism-wealth.com</a></li>
+            <li>6907 University Ave #303<br />Middleton, WI 53562</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> Prism Wealth. All rights reserved.</span>
+        <span class="credentials">Craig Peterman, CFA, CFP<sup>®</sup></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

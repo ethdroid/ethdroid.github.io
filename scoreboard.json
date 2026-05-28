@@ -1,0 +1,18 @@
+{
+  "eyebrow": "Year-to-Date Scoreboard",
+  "title": "Index Tracking ETFs",
+  "columns": ["1Q26", "Apr-26", "Thru 05/18/26", "2026 YTD"],
+  "rows": [
+    { "name": "Russell 3000",            "ticker": "IWV",  "values": [-4.0, 10.1,  2.3,  8.2] },
+    { "name": "S&P 500",                 "ticker": "SPY",  "values": [-4.4, 10.5,  2.8,  8.6] },
+    { "name": "Russell 2000",            "ticker": "IWM",  "values": [ 0.9, 12.1, -0.7, 12.3] },
+    { "name": "MSCI Developed",          "ticker": "EFA",  "values": [ 1.1,  5.3,  0.4,  6.9] },
+    { "name": "MSCI Emerging Markets",   "ticker": "EEM",  "values": [ 3.8, 12.7,  1.5, 18.8] },
+    { "name": "Barclays Agg Bond Index", "ticker": "AGG",  "values": [ 0.0,  0.2, -0.8, -0.6] },
+    { "name": "Barclays High Yield Bond","ticker": "JNK",  "values": [-0.4,  1.7, -0.6,  0.7] },
+    { "name": "Alerian MLP",             "ticker": "AMLP", "values": [14.1,  2.8,  0.6, 18.1] },
+    { "name": "Gold",                    "ticker": "IAU",  "values": [ 8.6, -1.5, -1.3,  5.7] }
+  ],
+  "footnote": "Returns depicted are the total returns of established ETFs that follow the well-known indices.",
+  "sources": "Standard & Poor's, Dow Jones, Russell, Barclays, MSCI, Yahoo Finance"
+}
