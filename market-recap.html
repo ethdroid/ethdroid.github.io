@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market Recap — Prism Wealth</title>
+  <meta name="description" content="Commentary on capital markets, economic data, and portfolio strategy from Prism Wealth." />
+
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Cinzel:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="nav__brand" aria-label="Prism Wealth — Home">
+        <img src="logo.png" alt="Prism Wealth" />
+        <span class="nav__brand-text"><span class="prism">PRISM</span> <span class="wealth">WEALTH</span></span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul class="nav__links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="market-recap.html" class="active">Market Recap</a></li>
+        <li><a href="regulatory.html">Regulatory Filings</a></li>
+        <li><a href="disclaimers.html">Disclosures</a></li>
+        <li><a href="index.html#contact" class="btn btn--ghost" style="padding:.5rem 1rem;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Feed view (shown by default) ===== -->
+  <div id="view-feed">
+    <header class="page-head">
+      <div class="page-head__inner">
+        <span class="eyebrow">Commentary</span>
+        <h1>Market Recap.</h1>
+        <p class="lead">Periodic reflections on capital markets, economic releases, and the portfolio implications worth thinking through.</p>
+      </div>
+    </header>
+
+    <section class="recap-intro">
+      <div class="container-narrow">
+        <p class="recap-intro__open">"This time is different" is a cliche that has been used in the economic and investment world many times before, only to ultimately be proven wrong. However, based on the extraordinary actions taken by central banks and governments around the world, we just might be on the cusp of a major shift in global financial markets that seems to occur every 80 to 100 years.</p>
+        <p>Our Recaps are not designed to cover everything about the markets. They are, however, intended to identify important financial topics that seem to be underreported, misrepresented, or misunderstood by the general media. As such, if our insights are correct, they should help enhance our strategy returns, reduce our strategy risks, or possibly both.</p>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Live Ticker — TradingView widget (free, third-party)
+         To remove entirely, delete this whole <section> block.
+         To change which tickers appear, edit the "symbols" array below.
+         ========================================================================= -->
+    <section class="live-ticker-section">
+      <div class="container-narrow">
+        <span class="eyebrow">Live Markets</span>
+        <div class="live-ticker">
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright">
+              <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a>
+            </div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+              "symbols": [
+                { "description": "S&P 500",         "proName": "AMEX:SPY"  },
+                { "description": "Russell 3000",    "proName": "AMEX:IWV"  },
+                { "description": "Russell 2000",    "proName": "AMEX:IWM"  },
+                { "description": "MSCI Developed",  "proName": "AMEX:EFA"  },
+                { "description": "MSCI Emerging",   "proName": "AMEX:EEM"  },
+                { "description": "Agg Bond",        "proName": "AMEX:AGG"  },
+                { "description": "High Yield Bond", "proName": "AMEX:JNK"  },
+                { "description": "Alerian MLP",     "proName": "AMEX:AMLP" },
+                { "description": "Gold",            "proName": "AMEX:IAU"  }
+              ],
+              "showSymbolLogo": false,
+              "isTransparent": true,
+              "displayMode": "adaptive",
+              "colorTheme": "dark",
+              "locale": "en"
+            }
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scoreboard-section">
+      <div class="container-narrow">
+        <div id="scoreboard"><!-- rendered by scoreboard.js --></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-narrow">
+        <div class="feed" id="feed-container">
+          <!-- Posts injected by JS -->
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== Single-post view (shown when ?post=slug is present) ===== -->
+  <div id="view-post" style="display:none;">
+    <article class="post">
+      <a href="market-recap.html" class="post__back">← All Posts</a>
+      <div id="post-container">
+        <!-- Single post injected by JS -->
+      </div>
+    </article>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="logo.png" alt="Prism Wealth" />
+          <p>Independent wealth management. Middleton, Wisconsin.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="market-recap.html">Market Recap</a></li>
+            <li><a href="regulatory.html">Regulatory Filings</a></li>
+            <li><a href="disclaimers.html">Disclosures</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Contact</h5>
+          <ul>
+            <li>608.841.1598</li>
+            <li><a href="mailto:cpeterman@prism-wealth.com">cpeterman@prism-wealth.com</a></li>
+            <li>6907 University Ave #303<br />Middleton, WI 53562</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> Prism Wealth. All rights reserved.</span>
+        <span class="credentials">Craig Peterman, CFA, CFP<sup>®</sup></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="posts.js"></script>
+  <script src="scoreboard.js"></script>
+</body>
+</html>

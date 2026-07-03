@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prism Wealth — Independent Wealth Management</title>
+  <meta name="description" content="Prism Wealth is an independent advisory firm offering thoughtful, fiduciary wealth management from Middleton, Wisconsin." />
+
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Cinzel:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="nav__brand" aria-label="Prism Wealth — Home">
+        <img src="logo.png" alt="Prism Wealth" />
+        <span class="nav__brand-text"><span class="prism">PRISM</span> <span class="wealth">WEALTH</span></span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul class="nav__links" id="primary-nav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="market-recap.html">Market Recap</a></li>
+        <li><a href="regulatory.html">Regulatory Filings</a></li>
+        <li><a href="disclaimers.html">Disclosures</a></li>
+        <li><a href="#contact" class="btn btn--ghost" style="padding:.5rem 1rem;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero__beam" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__copy reveal">
+          <span class="eyebrow">Independent Fiduciary Advisory</span>
+          <h1>
+            Clarity refracted from <span class="accent">complexity.</span>
+          </h1>
+          <p class="lead">
+            Prism Wealth is an independent advisory firm built on the principles of integrity, diligence, and long-term thinking.
+          </p>
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn--primary">Schedule a Conversation <span class="arrow">→</span></a>
+            <a href="market-recap.html" class="btn btn--ghost">Read Market Recap</a>
+          </div>
+        </div>
+        <div class="hero__mark reveal">
+          <img src="logo.png" alt="" aria-hidden="true" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pillars ===== -->
+  <section>
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="eyebrow">Our Approach</span>
+        <h2 style="margin-top: 1rem;">Three principles, applied consistently.</h2>
+        <div class="rule"><span class="rule__diamond"></span></div>
+      </div>
+
+      <div class="pillars reveal">
+        <article class="pillar">
+          <div class="pillar__num">01 — Integrity</div>
+          <h3>Adhere to the fiduciary standard.</h3>
+          <p>As a fiduciary, every step in the financial planning and investment process is guided by what is most appropriate for the client. With such a philosophy, recommendations and decisions become relatively easier because the primary goal is always the same. Open and honest communication is the foundation on which trust is built.</p>
+        </article>
+        <article class="pillar">
+          <div class="pillar__num">02 — Diligence</div>
+          <h3>Built on a disciplined analytical process.</h3>
+          <p>Recommendations and decisions are thoroughly researched and analyzed, usually comparing alternatives before deciding on the most appropriate path. Everyone has their own financial puzzle, and we help identify the most appropriate pieces and keep them current when the environment and circumstances change. With a master&rsquo;s degree in finance and investments, combined with being a Chartered Financial Analyst (CFA) and a Certified Financial Planner (CFP&reg;), we provide a high level of knowledge, skill, and experience.</p>
+        </article>
+        <article class="pillar">
+          <div class="pillar__num">03 — Long term thinking</div>
+          <h3>Building financial security to reach bigger goals.</h3>
+          <p>No matter what the starting point, we believe financial goals are much more likely to be achieved with long-term thinking, not short-term returns and investment fads. It is our belief that true financial stability and wealth grows over time by adhering to comprehensive plan that places as much emphasis on risks as it does to returns.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <span class="eyebrow">Get in Touch</span>
+          <h2 style="margin-top:1rem;">A conversation, without obligation.</h2>
+          <p class="lead">
+            Reach out by phone, by email, or with the form. Initial conversations are confidential and complimentary.
+          </p>
+
+          <dl>
+            <dt>Office</dt>
+            <dd>
+              6907 University Avenue, Suite 303<br />
+              Middleton, Wisconsin 53562
+            </dd>
+
+            <dt>Phone</dt>
+            <dd><a href="tel:+16088411598">608&nbsp;·&nbsp;841&nbsp;·&nbsp;1598</a></dd>
+
+            <dt>Email</dt>
+            <dd><a href="mailto:cpeterman@prism-wealth.com">cpeterman@prism-wealth.com</a></dd>
+
+            <dt>Advisor</dt>
+            <dd>Craig Peterman, CFA, CFP<sup>®</sup></dd>
+          </dl>
+        </div>
+
+        <form class="form reveal" id="contact-form" novalidate>
+          <div class="form__row">
+            <label for="from_name">Name</label>
+            <input type="text" id="from_name" name="from_name" required autocomplete="name" />
+          </div>
+          <div class="form__row">
+            <label for="from_email">Email</label>
+            <input type="email" id="from_email" name="from_email" required autocomplete="email" />
+          </div>
+          <div class="form__row">
+            <label for="phone">Phone <span class="muted" style="text-transform:none;letter-spacing:0;">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+          </div>
+          <div class="form__row">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form__status" id="form-status" role="status" aria-live="polite"></div>
+          <button type="submit" class="btn btn--primary">
+            <span class="btn__label">Send Message</span>
+            <span class="arrow">→</span>
+          </button>
+          <p class="muted" style="font-size:.78rem; margin:0;">
+            Submitting this form does not establish an advisory relationship. See our <a href="disclaimers.html">disclosures</a>.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="logo.png" alt="Prism Wealth" />
+          <p>Independent wealth management. Middleton, Wisconsin.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="market-recap.html">Market Recap</a></li>
+            <li><a href="regulatory.html">Regulatory Filings</a></li>
+            <li><a href="disclaimers.html">Disclosures</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Contact</h5>
+          <ul>
+            <li>608.841.1598</li>
+            <li><a href="mailto:cpeterman@prism-wealth.com">cpeterman@prism-wealth.com</a></li>
+            <li>6907 University Ave #303<br />Middleton, WI 53562</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> Prism Wealth. All rights reserved.</span>
+        <span class="credentials">Craig Peterman, CFA, CFP<sup>®</sup></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
