@@ -1,17 +1,17 @@
 {
   "eyebrow": "Year-to-Date Scoreboard",
   "title": "Index Tracking ETFs",
-  "columns": ["1Q26", "Apr-26", "May-26", "Jun-26", "2026 YTD"],
+  "columns": ["1Q26", "2Q26", "July 2026", "2026 YTD"],
   "rows": [
-    { "name": "Russell 3000",            "ticker": "IWV",  "values": [-4.0, 10.1,  5.1, -0.4, 10.7] },
-    { "name": "S&P 500",                 "ticker": "SPY",  "values": [-4.4, 10.5,  5.3, -1.1, 10.1] },
-    { "name": "Russell 2000",            "ticker": "IWM",  "values": [ 0.9, 12.1,  4.5,  3.7, 22.6] },
-    { "name": "MSCI Developed",          "ticker": "EFA",  "values": [ 1.1,  5.3,  2.5,  0.7,  9.9] },
-    { "name": "MSCI Emerging Markets",   "ticker": "EEM",  "values": [ 3.8, 12.7,  7.2,  0.2, 25.7] },
-    { "name": "Barclays Agg Bond Index", "ticker": "AGG",  "values": [ 0.0,  0.2,  0.3,  0.3,  0.7] },
-    { "name": "Barclays High Yield Bond","ticker": "JNK",  "values": [-0.4,  1.7,  0.5,  0.1,  1.9] },
-    { "name": "Alerian MLP",             "ticker": "AMLP", "values": [14.1,  2.8, -2.8,  0.5, 14.7] },
-    { "name": "Gold",                    "ticker": "IAU",  "values": [ 8.6, -1.5, -1.6,-11.7, -7.0] }
+    { "name": "Russell 3000",            "ticker": "IWV",  "values": [-4.0,  15.2, -0.3, 10.3] },
+    { "name": "S&P 500",                 "ticker": "SPY",  "values": [-4.4,  15.1,  0.1, 10.1] },
+    { "name": "Russell 2000",            "ticker": "IWM",  "values": [ 0.9,  21.4, -3.1, 18.8] },
+    { "name": "MSCI Developed",          "ticker": "EFA",  "values": [ 1.1,   8.6,  1.6, 11.7] },
+    { "name": "MSCI Emerging Markets",   "ticker": "EEM",  "values": [ 3.8,  21.1, -6.3, 17.7] },
+    { "name": "Barclays Agg Bond Index", "ticker": "AGG",  "values": [ 0.0,   0.7, -1.3, -0.6] },
+    { "name": "Barclays High Yield Bond","ticker": "JNK",  "values": [-0.4,   2.3, -0.2,  1.7] },
+    { "name": "Alerian MLP",             "ticker": "AMLP", "values": [14.1,   0.5,  6.7, 22.3] },
+    { "name": "Gold",                    "ticker": "IAU",  "values": [ 8.6, -14.3,  0.9, -6.2] }
   ],
   "footnote": "Returns depicted are the total returns of established ETFs that follow the well-known indices.",
   "sources": "Standard & Poor's, Dow Jones, Russell, Barclays, MSCI, Yahoo Finance"
