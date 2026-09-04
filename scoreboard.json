@@ -1,17 +1,17 @@
 {
   "eyebrow": "Year-to-Date Scoreboard",
   "title": "Index Tracking ETFs",
-  "columns": ["1Q26", "2Q26", "Jul-26", "21-Aug-26", "2026 YTD"],
+  "columns": ["1Q26", "2Q26", "Jul-26", "Aug-26", "2026 YTD"],
   "rows": [
-    { "name": "Russell 3000",            "ticker": "IWV",  "values": [-4.0,  15.2, -0.3,  2.7, 13.3] },
-    { "name": "S&P 500",                 "ticker": "SPY",  "values": [-4.4,  15.1,  0.1,  2.5, 12.9] },
-    { "name": "Russell 2000",            "ticker": "IWM",  "values": [ 0.9,  21.4, -3.1,  3.0, 22.4] },
-    { "name": "MSCI Developed",          "ticker": "EFA",  "values": [ 1.1,   8.6,  1.6,  2.5, 14.5] },
-    { "name": "MSCI Emerging Markets",   "ticker": "EEM",  "values": [ 3.8,  21.1, -6.3,  4.7, 23.3] },
-    { "name": "Barclays Agg Bond Index", "ticker": "AGG",  "values": [ 0.0,   0.7, -1.3,  0.3, -0.2] },
-    { "name": "Barclays High Yield Bond","ticker": "JNK",  "values": [-0.4,   2.3, -0.2,  0.7,  2.5] },
-    { "name": "Alerian MLP",             "ticker": "AMLP", "values": [14.1,   0.5,  6.7,  0.8, 23.3] },
-    { "name": "Gold",                    "ticker": "IAU",  "values": [ 8.6, -14.3,  0.9, 13.9,  6.9] }
+    { "name": "Russell 3000",            "ticker": "IWV",  "values": [-4.0,  15.2, -0.3, 2.7, 13.2] },
+    { "name": "S&P 500",                 "ticker": "SPY",  "values": [-4.4,  15.1,  0.1, 2.7, 13.1] },
+    { "name": "Russell 2000",            "ticker": "IWM",  "values": [ 0.9,  21.4, -3.1, 0.9, 19.9] },
+    { "name": "MSCI Developed",          "ticker": "EFA",  "values": [ 1.1,   8.6,  1.6, 1.8, 13.7] },
+    { "name": "MSCI Emerging Markets",   "ticker": "EEM",  "values": [ 3.8,  21.1, -6.3, 4.6, 23.1] },
+    { "name": "Barclays Agg Bond Index", "ticker": "AGG",  "values": [ 0.0,   0.7, -1.3, 0.4, -0.2] },
+    { "name": "Barclays High Yield Bond","ticker": "JNK",  "values": [-0.4,   2.3, -0.2, 0.9,  2.7] },
+    { "name": "Alerian MLP",             "ticker": "AMLP", "values": [14.1,   0.5,  6.7, 2.3, 25.2] },
+    { "name": "Gold",                    "ticker": "IAU",  "values": [ 8.6, -14.3,  0.9, 9.9,  3.1] }
   ],
   "footnote": "Returns depicted are the total returns of established ETFs that follow the well-known indices.",
   "sources": "Standard & Poor's, Dow Jones, Russell, Barclays, MSCI, Yahoo Finance"
